@@ -1,4 +1,4 @@
-import 'package:daily_planner/page/home.dart';
+import 'package:daily_planner/page/MainPage.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatefulWidget {
@@ -121,7 +121,7 @@ class _LoginPageState extends State<LoginPage> {
                             onPressed: () {
                               Navigator.push(
                                 context, 
-                                MaterialPageRoute(builder: (context) => const TaskList())
+                                MaterialPageRoute(builder: (context) => const Mainpage())
                               );
                             },
                             style: ElevatedButton.styleFrom(
